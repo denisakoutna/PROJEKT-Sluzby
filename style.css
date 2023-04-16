@@ -1,0 +1,345 @@
+*, :after, :before { box-sizing: border-box; }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
+    color: #8B8B8B;
+    font-size: 16px;
+    text-align: center;
+    margin: auto 20px;
+}
+
+.happy-traveller {
+    height: 290.5px;
+    width: 350px;
+    margin: 60px auto 40px auto;
+}
+
+h1 {
+    color: #000000;
+    font-size: 28px;
+    margin: 0 auto 10px auto;
+}
+
+hr {
+    border: 0;
+    width: 60px;
+    height: 2px;
+    color: #407BFF;
+    background-color: #407BFF;
+}
+
+h2 {
+    color: #000000;
+    font-size: 16px;
+}
+
+p {
+    font-weight: 300;
+}
+
+.cestovani-odkazy {
+    font-size: 14px;
+}
+
+.sluzby-delegatu,
+.sluzby-kancelare {
+    font-size: 13px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.dobrodruzo {
+    display: block;
+    background-color: #407BFF;
+    margin: 0 auto;
+    padding: 11px 30px;
+    height: 40px;
+    width: 195px;
+    border-radius: 20px;
+}
+
+.pohoda {
+    display: block;
+    background-color: #8B8B8B;
+    padding: 11px 20px;
+    margin: 10px auto 60px auto;
+    height: 40px;
+    width: 220px;
+    border-radius: 20px;
+}
+
+.sluzby-kancelare li,
+.sluzby-delegatu li {
+    display: block;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 6px #407BFF1F;
+    padding: 32px 20px 32px 30px;
+    margin: 0 0 15px 0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.mapa,
+.kaktus,
+.letadlo,
+.palma,
+.slunecnik,
+.obytnak {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.pomuzeme {
+    margin: 15px auto 28px auto;
+}
+
+.delegati-nadpis {
+    padding: 0;
+    margin: 60px auto 17px auto;
+}
+
+.doporuceni {
+    padding: 0;
+    margin: 0 auto 30px auto;
+}
+
+.specializace,
+.pomuzeme,
+.doporuceni {
+ margin-left: 5px;
+ margin-right: 5px;
+}
+
+@media screen and (min-width: 640px) {
+   
+   .specializace,
+   .pomuzeme,
+   .doporuceni {
+        margin-left: 110px;
+        margin-right: 110px;
+   }
+   
+    .happy-traveller {
+        height: 332px;
+        width: 400px;
+        margin: 60px auto 30px auto;
+    }
+
+    .pohoda {
+        margin: 0 auto 0 10px;
+        padding: 10px 29px;
+        height: 40px;
+        width: 220px;
+    }
+   
+   .dobrodruzo {
+      margin: 0 10px 0 auto;
+      padding: 10px 30px;
+      height: 40px;
+      width: 195px;
+   }
+
+    .cestovani-odkazy {
+        display: flex;
+    }
+
+    .kancelar {
+        margin-top: 90px;
+        margin-bottom: 17px;
+    }
+
+    .pomuzeme,
+    .doporuceni {
+        margin-bottom: 40px;
+    }
+
+    .sluzby-delegatu,
+    .sluzby-kancelare {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .sluzby-delegatu li,
+    .sluzby-kancelare li {
+        width: 230px;
+        height: 172px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+        padding: 100px 15px 40px 15px;
+        flex: 0 0 30%;
+        position: relative;
+        margin: 0 0 60px 0;
+    }
+
+    .mapa,
+    .letadlo {
+        position: absolute;    
+        left: calc(50% - 22.5px);
+        top: 40px;
+    
+    }
+
+    .kaktus {
+        position: absolute;
+        top: 40px;
+        left: calc(50% - 20px);
+    }
+
+    .palma,
+    .slunecnik,
+    .obytnak {
+        position: absolute;
+        top: 40px;
+        left: calc(50% - 25px);
+    }
+
+    .delegati-nadpis {
+        margin-top: 20px;
+        margin-bottom: 17px; 
+    }
+
+    .sluzby-nadpis {
+        margin-top: 80px;
+        margin-bottom: 17px;
+    }
+}
+
+
+
+@media screen and (min-width: 1100px) {
+
+    .kontejner {
+        width: 1040px;
+        margin: auto;
+        justify-content: center;
+        
+    }
+
+    .happytravels {
+        text-align: left;
+    }
+
+    .cestovani-odkazy {
+        display: flex;
+        flex-direction: row;
+    }
+
+    hr {
+        margin: 10px auto 30px 0;
+    }
+
+   .dobrodruzo {
+      margin: 0 10px 0 0;
+      padding: 10px 30px;
+      height: 40px;
+      width: 195px;
+   }
+
+   .pohoda {
+        margin: 0 auto 0 10px;
+        padding: 10px 29px;
+        height: 40px;
+        width: 220px;
+    }
+
+
+    .happy-traveller {
+        max-width: 425px;
+        height: auto;
+        right: 110px;
+        margin: 60px auto 0 95px;
+    }
+
+    h1 {
+        margin-top: 133px;
+    }
+
+    .sloupec-levy,
+    .sloupec-pravy {
+        flex: 0 0 calc((100% - 60px) / 2);
+        text-align: left;
+    }
+
+    .cestovani-odkazy {
+        margin-top: 30px;
+    }
+
+    .happytravels,
+    .kancelar,
+    .delegati {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sloupec-levy {
+        order: 1;
+    }
+
+    .sloupec-pravy {
+        order: 2;
+    }
+
+
+    .delegati-nadpis {
+        margin: 40px 60px 17px 0;
+    }
+
+
+    .sluzby-kancelare,
+    .sluzby-delegatu {
+        width: 550px;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .sluzby-delegatu li,
+    .sluzby-kancelare li {
+        width: 170px;
+        height: 190px;
+        padding: 100px 12px 40px 12px;
+        margin: 0 0 80px 0;
+    }
+
+    .sluzby-delegatu {
+        margin-left: -60px;
+    }
+
+    .sluzby-nadpis,
+    .pomuzeme {
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+
+    .pomuzeme,
+    .doporuceni {
+        width: 430px;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .doporuceni {
+        margin-left: 0;
+    }
+
+    .specializace {
+        margin-left: 0;
+        margin-right: 0;
+        width: 500px;
+    }
+
+}
